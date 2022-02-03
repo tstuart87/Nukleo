@@ -42,6 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Company\Company.cs" />
+    <Compile Include="Company\Station.cs" />
     <Compile Include="Enum\GrowthStage.cs" />
     <Compile Include="Enum\Month.cs" />
     <Compile Include="Enum\PlotRating.cs" />

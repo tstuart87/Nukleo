@@ -5,11 +5,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Nukleo.Data.Season
+namespace Nukleo.Data.Company
 {
-    public class Season
+    public class Company
     {
         [Key]
         public Guid Id { get; set; }
+
     }
 }
