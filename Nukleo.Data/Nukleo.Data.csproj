@@ -46,14 +46,23 @@
     <Compile Include="Enum\Month.cs" />
     <Compile Include="Enum\PlotRating.cs" />
     <Compile Include="Enum\State.cs" />
+    <Compile Include="Equipment\Equipment.cs" />
+    <Compile Include="Equipment\Implement.cs" />
+    <Compile Include="Equipment\Vehicle.cs" />
+    <Compile Include="Location\CornTestPlot.cs" />
+    <Compile Include="Location\IsolatedCrossingBlock.cs" />
+    <Compile Include="Location\Location.cs" />
+    <Compile Include="Location\NurseryBlock.cs" />
+    <Compile Include="Location\SoyTestPlot.cs" />
+    <Compile Include="People\Cooperator.cs" />
+    <Compile Include="People\ExternalContact.cs" />
+    <Compile Include="People\Person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Season\Season.cs" />
+    <Compile Include="Task\EquipmentTask.cs" />
+    <Compile Include="Task\LocationTask.cs" />
+    <Compile Include="Task\Task.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Equipment\" />
-    <Folder Include="Location\" />
-    <Folder Include="People\" />
-    <Folder Include="Season\" />
-    <Folder Include="Task\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
