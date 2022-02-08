@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Nukleo.Data.Enum;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -11,5 +12,7 @@ namespace Nukleo.Data.Company
     {
         [Key]
         public Guid Id { get; set; }
+        public string City { get; set; }
+        public State State { get; set; }
     }
 }

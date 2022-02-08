@@ -11,6 +11,7 @@ namespace Nukleo.Data.Company
     {
         [Key]
         public Guid Id { get; set; }
-
+        public string Name { get; set; }
+        public string PassCode { get; set; }
     }
 }
