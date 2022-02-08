@@ -11,5 +11,6 @@ namespace Nukleo.Data.Task
     {
         [Key]
         public Guid Id { get; set; }
+        public bool IsCompleted { get; set; }
     }
 }

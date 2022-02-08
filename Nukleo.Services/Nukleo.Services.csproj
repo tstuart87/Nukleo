@@ -45,6 +45,22 @@
     <Compile Include="Company\CompanyDelete.cs" />
     <Compile Include="Company\CompanyRead.cs" />
     <Compile Include="Company\CompanyUpdate.cs" />
+    <Compile Include="Location\CornTestPlot\CornTestPlotCreate.cs" />
+    <Compile Include="Location\CornTestPlot\CornTestPlotDelete.cs" />
+    <Compile Include="Location\CornTestPlot\CornTestPlotRead.cs" />
+    <Compile Include="Location\CornTestPlot\CornTestPlotUpdate.cs" />
+    <Compile Include="Location\IsolatedCrossingBlock\IsolatedCrossingBlockCreate.cs" />
+    <Compile Include="Location\IsolatedCrossingBlock\IsolatedCrossingBlockDelete.cs" />
+    <Compile Include="Location\IsolatedCrossingBlock\IsolatedCrossingBlockRead.cs" />
+    <Compile Include="Location\IsolatedCrossingBlock\IsolatedCrossingBlockUpdate.cs" />
+    <Compile Include="Location\NurseryBlock\NurseryBlockCreate.cs" />
+    <Compile Include="Location\NurseryBlock\NurseryBlockDelete.cs" />
+    <Compile Include="Location\NurseryBlock\NurseryBlockRead.cs" />
+    <Compile Include="Location\NurseryBlock\NurseryBlockUpdate.cs" />
+    <Compile Include="Location\SoyTestPlot\SoyTestPlotCreate.cs" />
+    <Compile Include="Location\SoyTestPlot\SoyTestPlotDelete.cs" />
+    <Compile Include="Location\SoyTestPlot\SoyTestPlotRead.cs" />
+    <Compile Include="Location\SoyTestPlot\SoyTestPlotUpdate.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Season\SeasonCreate.cs" />
     <Compile Include="Season\StationDelete.cs" />
@@ -57,9 +73,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Equipment\" />
-    <Folder Include="Location\" />
     <Folder Include="People\" />
-    <Folder Include="Task\" />
+    <Folder Include="Task\Implement\" />
+    <Folder Include="Task\Location\" />
+    <Folder Include="Task\Vehicle\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
