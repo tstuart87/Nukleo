@@ -46,6 +46,10 @@
     <Compile Include="Company\CompanyRead.cs" />
     <Compile Include="Company\CompanyUpdate.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Station\StationCreate.cs" />
+    <Compile Include="Station\StationDelete.cs" />
+    <Compile Include="Station\StationRead.cs" />
+    <Compile Include="Station\StationUpdate.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Equipment\" />
