@@ -14,5 +14,6 @@ namespace Nukleo.Data.Company
         public Guid Id { get; set; }
         public string City { get; set; }
         public State State { get; set; }
+        public Guid CompanyId { get; set; }
     }
 }

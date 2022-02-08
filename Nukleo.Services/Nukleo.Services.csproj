@@ -41,10 +41,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Company\CompanyCreate.cs" />
+    <Compile Include="Company\CompanyDelete.cs" />
+    <Compile Include="Company\CompanyRead.cs" />
+    <Compile Include="Company\CompanyUpdate.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Company\" />
     <Folder Include="Equipment\" />
     <Folder Include="Location\" />
     <Folder Include="People\" />
