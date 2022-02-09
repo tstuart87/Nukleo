@@ -1,0 +1,2 @@
+C:\Projects\Nukleo\Nukleo\Nukleo.Data\obj\Debug\Nukleo.Data.csproj.AssemblyReference.cache
+C:\Projects\Nukleo\Nukleo\Nukleo.Data\obj\Debug\Nukleo.Data.csproj.CoreCompileInputs.cache

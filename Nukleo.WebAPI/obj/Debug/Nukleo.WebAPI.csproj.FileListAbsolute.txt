@@ -1,0 +1,2 @@
+C:\Projects\Nukleo\Nukleo\Nukleo.WebAPI\obj\Debug\Nukleo.WebAPI.csproj.AssemblyReference.cache
+C:\Projects\Nukleo\Nukleo\Nukleo.WebAPI\obj\Debug\Nukleo.WebAPI.csproj.CoreCompileInputs.cache

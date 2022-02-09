@@ -1,0 +1,6 @@
+C:\Projects\Nukleo\Nukleo\Nukleo.Services\bin\Debug\Nukleo.Services.dll
+C:\Projects\Nukleo\Nukleo\Nukleo.Services\bin\Debug\Nukleo.Services.pdb
+C:\Projects\Nukleo\Nukleo\Nukleo.Services\obj\Debug\Nukleo.Services.csproj.AssemblyReference.cache
+C:\Projects\Nukleo\Nukleo\Nukleo.Services\obj\Debug\Nukleo.Services.csproj.CoreCompileInputs.cache
+C:\Projects\Nukleo\Nukleo\Nukleo.Services\obj\Debug\Nukleo.Services.dll
+C:\Projects\Nukleo\Nukleo\Nukleo.Services\obj\Debug\Nukleo.Services.pdb
