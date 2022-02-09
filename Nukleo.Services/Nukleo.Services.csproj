@@ -78,5 +78,15 @@
     <Folder Include="Task\Location\" />
     <Folder Include="Task\Vehicle\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Nukleo.Data\Nukleo.Data.csproj">
+      <Project>{895cb9c0-422e-4e3e-9696-752cf8145eba}</Project>
+      <Name>Nukleo.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Nukleo.Models\Nukleo.Models.csproj">
+      <Project>{478dfb07-8dd7-4fb4-9ee4-bfcc15a93a5d}</Project>
+      <Name>Nukleo.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

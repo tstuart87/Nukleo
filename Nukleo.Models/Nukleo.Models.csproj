@@ -43,5 +43,11 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Nukleo.Data\Nukleo.Data.csproj">
+      <Project>{895cb9c0-422e-4e3e-9696-752cf8145eba}</Project>
+      <Name>Nukleo.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

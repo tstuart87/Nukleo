@@ -306,6 +306,20 @@
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Nukleo.Data\Nukleo.Data.csproj">
+      <Project>{895cb9c0-422e-4e3e-9696-752cf8145eba}</Project>
+      <Name>Nukleo.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Nukleo.Models\Nukleo.Models.csproj">
+      <Project>{478dfb07-8dd7-4fb4-9ee4-bfcc15a93a5d}</Project>
+      <Name>Nukleo.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Nukleo.Services\Nukleo.Services.csproj">
+      <Project>{901fccbe-3cad-4e67-8454-77df83396db0}</Project>
+      <Name>Nukleo.Services</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
