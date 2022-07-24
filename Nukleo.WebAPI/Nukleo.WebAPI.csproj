@@ -10,4 +10,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Nukleo.Services\Nukleo.Services.csproj" />
+    <ProjectReference Include="..\Nukleo.Models\Nukleo.Models.csproj" />
+    <ProjectReference Include="..\Nukleo.Data\Nukleo.Data.csproj" />
+  </ItemGroup>
+
 </Project>
